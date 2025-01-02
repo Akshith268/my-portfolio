@@ -51,7 +51,7 @@ export const Home = () => {
       <div className='wrapper'>
         <motion.div className='text' initial="initial" animate="animate">
             <motion.div className='firstheading' variants={textvariants}>AKSHITH REDDY</motion.div>
-            <motion.div  className='secondheading' variants={textvariants}>Web Developer</motion.div>
+            <motion.div  className='secondheading' variants={textvariants}>FullStack Developer</motion.div>
             <motion.div variants={textvariants} className='buttons'>
                  <motion.button variants={textvariants} whileHover={{scale:1.1,cursor:'pointer',background:'white',color:'black'}} className='fbutton'><a href="#Skills">See My Work</a></motion.button>
                  <motion.button variants={textvariants} whileHover={{scale:1.1,cursor:'pointer',background:'white',color:'black'}} className='sbutton'><a href="#Contact">Contact me</a></motion.button>
@@ -63,7 +63,7 @@ export const Home = () => {
         FullStack Developer
       </motion.div>
         <div className='image'>
-             <img src="/image.png" alt=""/>
+             <img src="/portfo.png" alt=""/>
         </div>
 
     </div>

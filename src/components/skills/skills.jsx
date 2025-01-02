@@ -6,7 +6,7 @@ import {motion,useAnimation} from 'framer-motion'
 export const Skill = ()=>{
   const [animation,setAnimation]=useState(false);
       const controls=useAnimation();
-
+  const str="</Projects>";
       useEffect(()=>{
          const handlescroll=()=>{
          if(window.scrollY>800&&!animation){
@@ -91,7 +91,7 @@ export const Skill = ()=>{
   return (
     <div>
         <motion.div className='heading' variants={headingvariant} initial='initial' animate={controls} >
-              Skills
+              {str}
         </motion.div>
         
         <div className='second'>
@@ -108,6 +108,10 @@ export const Skill = ()=>{
                       </li>
                      </ul> */}
                 </div>
+                <div className='GeeksForGeeks item'>
+                  <a href="https://www.geeksforgeeks.org/user/akshith268/?ref=header_profile">- GeeksForGeeks</a>
+                  <br />
+                </div>
                 <div className='codeforces item'>
                   <a href="https://codeforces.com/profile/G.Akshith">- Codeforces</a>
                   <br />
@@ -123,31 +127,30 @@ export const Skill = ()=>{
                 <motion.h1>Development Projects</motion.h1>
                 <motion.div className='devlist' variants={textvariants} initial='initial' animate={controls} >
                   <div className=' item'>
-                    <a href="https://github.com/Akshith268/tailorconnect/tree/main/mern-projects">Tailor Connect
+                    <a href="https://github.com/Akshith268/tailorconnect/tree/main/mern-projects">SOCKETFLOW
                       <br />
                     <p>
-                        A web application for tailors to connect with customers<br />
-                        Technologies used : React, Node, Express, MongoDB,OpenCage
-
+                    Developed a real-time communication system using Socket.io <br/> and redis
                     </p>
                       
                     </a>
                     <br />
                   </div>
                   <div className='item'>
-                    <a href="">Portfolio
+                    <a href="https://writeyourcode1-fvb8m0w2.b4a.run/">ONLINE CODE COMPILER
                       <br />
-                      <p>My personal portfolio
+                      <p>Designed a user-friendly code compiler  using React <br/> and Monaco Editor,
+backend APIs with <br/> Express.js and MongoDB
                         <br />
-                        Technologies used : React, Framer Motion, Sass
+      
                       </p>
                     </a>
                   </div>
                   <br />
                   <div className='item'>
-                    <a href="https://github.com/namanmuktha/co-de-bug">MediSearch
+                    <a href="https://github.com/Akshith268/eye-disease">AI-Powered Eye Disease Detection System
                       <br />
-                      <p>A MERN-search engine for searching medicines
+                      <p> AI-powered system that uses deep learning techniques to detect and<br/> classify various eye diseases from medical images
                         <br />
                         Technologies used : Advanced React, Node, Express, 
                       </p>

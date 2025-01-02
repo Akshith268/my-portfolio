@@ -65,16 +65,9 @@ export const About = () => {
        <motion.div className='heading' variants={headingvariant} initial='initial' animate={controls} >{str}</motion.div>
        <br/>
        <motion.div className='content' variants={textvariants} initial='initial' animate={controls}>
-     Hello, and welcome to my portfolio! 
-     I'm a college student on a journey of 
-     self-discovery and growth. I'm currently pursuing a degree in Computer Science and Engineering
-    at <span>CMR College Of Engineering</span>, where I'm enthusiastically immersing myself in the world of programming.
+       Hello, and welcome to my portfolio! I’m currently pursuing a degree in Computer Science and Engineering at <span>CMR College Of Engineering</span>. My focus lies in backend development and Artificial Intelligence (AI). I specialize in building scalable backend systems with Node.js, Express, and MongoDB, and I have a strong interest in AI, especially in areas like image processing and machine learning.
     <br/><br/>
-    In addition to my academic pursuits, I'm an active member of National Service Scheme, where 
-    I've had the opportunity to collaborate with amazing peers and gain valuable knowledge of how services are done and also 
-    about the non-profit organizations. Being
-     a part of this NSS club has not only allowed me to give back to the community but also opened 
-     doors to some unforgettable experiences.
+    I'm also an active member of the National Service Scheme, where I collaborate with peers on community projects, gaining valuable experiences in teamwork and social impact.
        </motion.div>
     </motion.div>
  )

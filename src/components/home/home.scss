@@ -20,6 +20,8 @@
       
       height: 100%;
       opacity: 1;
+      display: flex;
+      flex-direction: column;
      
       .text{
       
@@ -36,25 +38,22 @@
         }
           .firstheading{
             font-family:montserrat;
-            
             font-size: 50px;
             letter-spacing: 4px;
             color: white;
           }
           .secondheading{
-            font-family: montserrat;
-          font-size: 65px;
+          font-family: montserrat;
+          font-size: 45px;
           color: white;
           }
           .buttons{
-           position: relative;
+          // position: relative;
             display:flex;
             gap: 20px;
             flex-direction: row;
             cursor: pointer;
-            
-        
-          margin-left: 30%;
+            margin-left: 33%;
 
             button{
 
@@ -93,8 +92,9 @@
         right: 0;
         margin-left: 70%;
         img{
-          height: 70%;
-          width:70%;
+          border-radius: 3%;
+          height: 100%;
+          width:100%;
         }
        
 
