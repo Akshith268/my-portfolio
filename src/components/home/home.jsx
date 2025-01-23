@@ -5,6 +5,7 @@ import { useState,useEffect } from 'react'
 import { Sidebar } from '../sidebar/sidebar'
 import { MdOutlineSwipeDownAlt } from "react-icons/md";
 
+
 const textvariants={
   initial:{
     x:-500,
@@ -55,6 +56,10 @@ export const Home = () => {
             <motion.div variants={textvariants} className='buttons'>
                  <motion.button variants={textvariants} whileHover={{scale:1.1,cursor:'pointer',background:'white',color:'black'}} className='fbutton'><a href="#Skills">See My Work</a></motion.button>
                  <motion.button variants={textvariants} whileHover={{scale:1.1,cursor:'pointer',background:'white',color:'black'}} className='sbutton'><a href="#Contact">Contact me</a></motion.button>
+  
+            </motion.div>
+            <motion.div variants={textvariants} className='resumebutton'>
+            <motion.button variants={textvariants} whileHover={{scale:1.1,cursor:'pointer',background:'white',color:'black'}} className='resume'><a href="https://drive.google.com/file/d/1dtqm7qVyhk9RmZoPA6e7nhMxUg-XDttc/view?usp=sharing"> <MdOutlineSwipeDownAlt/>    &nbsp;  View My Resume</a></motion.button>
             </motion.div>
         </motion.div>
        

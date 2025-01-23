@@ -68,6 +68,23 @@
 
            
           }
+          .resumebutton{
+            display:flex;
+            gap: 20px;
+            flex-direction: row;
+            cursor: pointer;
+            margin-left: 33%;
+            .resume{
+            background: transparent;
+            border-radius: 3px;
+            border: 1px solid white;
+            color: white;
+            padding: 7px;
+            background-color: #333;
+            white-space: nowrap;
+            cursor: pointer;
+            }
+          }
       }
       
     }
